@@ -1,4 +1,4 @@
-# Delfbot 1.1 [test]
+# Delfbot 1.1 
 
 
 Comment faire fonctionner ? 
