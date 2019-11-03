@@ -1,0 +1,48 @@
+bot.on('message', message => {
+    if (message.author.bot) return;
+    message.content = message.content.toLowerCase() ;
+    if (message.author.bot) return;
+    var auteur = message.author.username
+    
+           
+        
+        var words = message.content.toLowerCase().trim().match(/$\w.+\n+|\s+|[^\s\n]+/g);
+        if (message.author.bot) return;
+       
+          if (words) {
+            if (message.author.bot) return;
+          
+            var Hello = words.some(word => { return bonjour.includes(word); });
+        }
+        if (Hello || bonjour.some(word => message.content.includes(word))) {
+            console.log('test1')
+            if (message.author.bot) return;
+
+            message.delete(100); // 
+    
+            var response = reb [Math.floor(Math.random()*reb .length)];
+            message.channel.send(response);
+            
+          
+    
+    
+            
+            test.add(message.author.id);
+            setTimeout(() => {
+              
+              test.delete(message.author.id);
+            }, 12*60*60000);
+           
+    
+    
+            } else {
+                if (message.author.bot) return;
+                if (test.has(message.author.id)) {
+                    if (message.author.bot) return;
+                    var hey = bonjour [Math.floor(Math.random()*bonjour .length)];
+                    var poli = skin [Math.floor(Math.random()*skin .length)];
+                    message.channel.send(hey+`${auteur}, `+ poli);
+                   
+              }
+            }
+  });
