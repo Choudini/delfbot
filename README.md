@@ -1,5 +1,5 @@
-# selfbot
-Selfbot 1.1
+# Selfbot 1.1
+
 
 Comment faire fonctionner ? 
 ---
@@ -20,5 +20,5 @@ Commandes console
 - pm2 restart selfbot : <i>permet de reboot le bot</i>
 - pm2 start selfbot : <i>permet d'allumer le bot uniquement dans le cas où il est actuellement dans l'état "stopped"</i>
 
-
+> By Praumat
 
