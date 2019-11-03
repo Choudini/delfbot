@@ -11,7 +11,7 @@ Comment faire fonctionner ?
 
 Commandes bot 
 ---
-- avatar @name : *permet d'avoir l'image de la personne, faire avatar solo permet d'avoir ton image.*
+- avatar [name] : *permet d'avoir l'image de la personne, faire avatar solo permet d'avoir ton image.*
 - prefix + purge [nombre] : *permet de delete les messages send par soit même uniquement avec une limite de 100 messages et 14 jours maximum.*
 - prefix + ping : *montre le ping qu'il y a entre le bot et vous.*
 
