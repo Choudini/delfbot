@@ -1,6 +1,14 @@
 # selfbot
 Selfbot 1.1
 
+Comment faire fonctionner ? 
+---
+- Télécharger
+- Extraire 
+- Executez le fichier de commande "install.bat"
+- Modifiez le fichier config.json et remplissez le tout.
+- Vous pouvez maintenant profiter du selfbot.
+
 Commandes bot 
 ---
 - avatar @name : *permet d'avoir l'image de la personne, faire avatar solo permet d'avoir ton image.*
