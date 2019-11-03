@@ -20,5 +20,9 @@ Commandes console
 - pm2 restart selfbot : <i>permet de reboot le bot</i>
 - pm2 start selfbot : <i>permet d'allumer le bot uniquement dans le cas où il est actuellement dans l'état "stopped"</i>
 
+Plus : 
+---
+Ouvrez le fichier de commande log.bat pour pouvoir voir les log du bot, pour l'instant y'a quasi rien de log mais ça pourrait changer si besoin.
+
 > By Praumat
 
