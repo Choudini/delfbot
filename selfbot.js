@@ -19,13 +19,6 @@ bot.on("ready", () => {
 })
 
 
-//osef c'est pour moi plus tard flm de faire des copies
-var ia = require("./ia/vocabulaire.json")
-    const bonjour = ia.hello
-    const reb = ia.re
-    const skin = ia.politesse
-    const test = new Set([1]);
-    const bonjourr = ["Yo","Yop","Bonjour", "Bien le bonjour"]
 
 
 bot.on("message", msg => { //ici tu peux voir que c'est msg, tu peux mettre ce que tu veux, tu peux même mettre fdp ça va marcher mais ducoup tu devras mettre fdp à la place des msg
@@ -60,7 +53,7 @@ if (message.content.startsWith('avatar')) {
     return  message.channel.send(embed);
     
     }
-    //osef mais c'est pour de futurs maj
+   
   const avatarList = message.mentions.users.map(user => {
 
     let embed = new Discord.RichEmbed()
@@ -83,7 +76,7 @@ bot.on('message', message => {
     const config = require("./config.json")
 
 
-//purge 100 messages max :/ Je sais pas comment faire plus
+//purge 100 messages max :/ Je sais pas comment faire plus. NEW : j'ai des solutions que j'appliquerai soon.
     if (message.author.id !== config.userid) return;
 
     let pruneprefix = config.prefix;
