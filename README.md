@@ -26,5 +26,5 @@ Plus :
 Ouvrez le fichier de commande log.bat pour pouvoir voir les log du bot, pour l'instant y'a quasi rien de log mais ça pourrait changer si besoin.
 
 > By Praumat
-<br>> Commande de Nahlya pour utilisation personnelle en attente de retour pour amélioration.
+<br>Commande de Nahlya pour utilisation personnelle en attente de retour pour amélioration.
 
